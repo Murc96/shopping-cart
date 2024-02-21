@@ -1,0 +1,59 @@
+*,
+body {
+  background-color: grey;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.containerBtn {
+  margin-top: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+p {
+  background-color: white;
+  margin: 20px;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 10px;
+  width: 20%;
+  color: black;
+  padding: 20px;
+}
+
+.cardImg {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nameContainer {
+  padding: 2px 16px;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
